@@ -30,7 +30,7 @@ export default function Footer() {
                             <p>
                                 <Balancer>
                                     President of Elite : A.R. Rithika<br />
-                                    Mobile No :+91<Link href="tel:5555555555">8870308344</Link>
+                                    Mobile No :+91<Link href="tel:8870308344">8870308344</Link>
                                 </Balancer>
                             </p>
                         </div>
