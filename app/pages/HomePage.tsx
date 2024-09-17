@@ -21,7 +21,7 @@ export default function Page() {
                         <Image
                             src={elite_2k19}
                             alt="placeholder"
-                            className="fill object-cover"
+                            className="fit object-cover"
                         />
                     </div>
                     <div className="flex flex-col gap-6 py-8">
