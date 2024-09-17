@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+
+#navbar {
+    font-family: "Noto Sans", sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: medium;
+
+}
+
+#navbar:hover {
+    background-color: #2c29d9;
+    color: white;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.register {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    background-color: #2c29d9;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: medium;
+    border-style: dotted;
+    border-color: white;
+    border-width: 2px;
+    width: 120px;
+}
+
+#register:hover {
+    -moz-box-shadow: 0 0 10px #1f2836;
+    -webkit-box-shadow: 0 0 10px #1f2836;
+    box-shadow: 0 0 10px #1f2836;
+}
+
+
+
+.txt_reg {
+    display: inline-block;
+}
+
+.img_reg {
+    margin-right: 3px;
+}
+
+#title_el {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #323170, #2c29d9);
+    background-clip: text;
+    color: transparent;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #323170;
+    }
+}

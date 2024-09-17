@@ -1,0 +1,19 @@
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 500px;
+
+}
+
+.card-grid {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+.txt_reg {
+    display: inline-block;
+}
