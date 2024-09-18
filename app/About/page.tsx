@@ -28,7 +28,7 @@ const About = () => {
           6th National Level Technical Symposium
         </h1>
         <h3 className="rounded-md border bg-muted/50 p-4 text-muted-foreground">
-          Elite (Group of talented Students) is student Association of Computer Science and Applications Department has been functioning over the years with the objectives of promoting student activities of organizing and participating in co-curricular activities by the students of the Department.
+          Elite (Group of talented Students) is student Association of Computer Science and Applications Department. It has been functioning over the years with the objectives of promoting student activities of organizing and participating in co-curricular activities by the students of the Department.
         </h3>
 
         <div className="flex gap-4">

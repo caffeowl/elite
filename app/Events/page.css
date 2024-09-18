@@ -22,11 +22,10 @@
     margin:auto;
     justify-content: center;
 }
-#tags{
-    font-weight: 800;
+.btn_detail{
     display: flex;
     justify-content: space-between;
-    margin-left: auto;
+    margin-left: 90px;
 }
 #dialog{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

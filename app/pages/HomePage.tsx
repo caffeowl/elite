@@ -26,10 +26,11 @@ export default function Page() {
                     </div>
                     <div className="flex flex-col gap-6 py-8">
                         <h3 className="!my-0">Elite 2k24 Welcomes You!</h3>
+                        <h1 id="blinking-text">Last date for registration : 30th September.</h1>
                         <p className="font-light leading-[1.4] opacity-70">
                             Consider this as an opportunity to participate and win prices.
-                            Make sure to register early and get updates regarding the events you participated.
-                            Let the competative bring fresh minds to explore and bring heat to the events.
+                            Make sure to register early and get updates regarding the events you participate.
+                            Let the competition bring fresh minds to explore and bring heat to the events.
                         </p>
                         <div className="not-prose flex items-center gap-2">
                             <Button className="w-fit" asChild>

@@ -10,14 +10,14 @@ import { Button } from "@/components/ui/button";
 import { Section, Container } from "@/components/craft";
 import {IdCard,Download} from "lucide-react";
 // Assets
-import invite from "./invitation.jpg";
+import invite from "./invitation.jpeg";
 
 export default function Invitation() {
   return (
     <Section>
       <Container>
         <div className="flex flex-col items-center text-center">
-        <Button className="w-fit not-prose mb-6 flex" size="sm" asChild><Link target="_blank" href="https://drive.usercontent.google.com/u/0/uc?id=1lu6I8SLLpNXia95CGTPUGWR1AO9CG5Vo&export=download" download="Elite_Invitation.jpg"><Download/>&emsp;Download Brochure</Link></Button>
+        <Button className="w-fit not-prose mb-6 flex" size="sm" asChild><Link target="_blank" href="https://drive.usercontent.google.com/u/0/uc?id=1m0PV5UHDzU79vzxwO5UbdKWFvsyEnzry&export=download" download="Elite_Invitation.jpg"><Download/>&emsp;Download Brochure</Link></Button>
           <Button
             asChild
             className="not-prose mb-6 flex w-fit"

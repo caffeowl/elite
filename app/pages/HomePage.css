@@ -17,3 +17,14 @@
 .txt_reg {
     display: inline-block;
 }
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+  }
+
+  #blinking-text {
+    font-size: 1.5rem;
+    color: #ba3232 ;
+    animation: blink 1s linear infinite;
+    -webkit-text-stroke: 2px #f20707;
+  }
