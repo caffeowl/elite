@@ -13,7 +13,6 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog"
-import { Tag } from "lucide-react";
 import { Separator } from "@/components/ui/separator"
 import './page.css'
 import Image from 'next/image'
