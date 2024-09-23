@@ -25,7 +25,7 @@ export default function Footer() {
                                         width={100}
                                         height={27.27}
                                         className="transition-all hover:opacity-75 dark:invert"
-                                    ></Image>
+                                    ></Image> 
                             </Link>
                             <p>
                                 <Balancer>

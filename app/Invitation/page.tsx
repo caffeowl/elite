@@ -33,7 +33,7 @@ export default function Invitation() {
               Know more about the Elite from below brochure.
             </Balancer>
           </h1>
-          <div className="my-8 h-500 w-500 overflow-hidden rounded-lg border md:h-[480px] md:rounded-xl">
+          <div className="my-8 h-500 w-500 overflow-hidden rounded-lg border md:h-[428px] md:rounded-xl">
             <Image
               className="not-prose h-fit w-fit object-cover object-bottom"
               src={invite}

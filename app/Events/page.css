@@ -1,77 +1,154 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
 .card {
     font-family: "Red Hat Display", sans-serif;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+}
 
+.card:hover {
+    position: relative;
+    animation-name: float;
+    animation-duration: 2.5s;
+    animation: ease-in-out;
+    animation-iteration-count: infinite;
+    transition: all .3s ease;
 }
 
 .card-grid {
+    background-color: rgba(0, 0, 0, 0.26);
+    backdrop-filter: blur(12px);
+    color: white;
     padding: 10px;
     font-size: 30px;
     text-align: center;
     margin: 8px;
 }
-.img_event{
+
+.img_event {
     padding: 5px;
-    margin:auto;
+    margin: 10px;
     justify-content: center;
+    background-color: antiquewhite;
+    background-size: cover;
 }
-.btn_detail{
+
+.btn_detail {
     display: flex;
     justify-content: space-between;
     margin-left: 90px;
+    background-color: rgb(117, 254, 245);
+    color: black;
 }
-#dialog{
+
+.btn_detail:hover {
+    background-color: rgba(117, 254, 245, 0.574);
+    ;
+
+}
+
+#dialog {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: auto;
     max-width: auto;
     margin: auto;
 }
-h3{
+
+h3 {
     font-family: "Red Hat Display", sans-serif;
     font-size: medium;
     font-weight: 600;
     font-style: normal;
 }
-.badge_coord{
-    width: 220px;
+
+.badge_coord {
+    width: 300px;
     height: 80px;
     margin: 4px;
-    
+
 }
-.trin-trin:hover
-{
+
+
+.trin-trin:hover {
     animation-name: trin;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
 @keyframes trin {
 
     from {
-        transform:rotate3d(0, 0, 1, 0deg);
-    }
-    20%, 32%, 44%, 56%, 68% {
         transform: rotate3d(0, 0, 1, 0deg);
     }
-    23%, 35%, 47%, 59%, 71% {
-        transform: rotate3d(0,0,1,15deg);
+
+    20%,
+    32%,
+    44%,
+    56%,
+    68% {
+        transform: rotate3d(0, 0, 1, 0deg);
     }
-    26%, 38%, 50%, 62%, 74% {
-        transform: rotate3d(0,0,1,0deg);
+
+    23%,
+    35%,
+    47%,
+    59%,
+    71% {
+        transform: rotate3d(0, 0, 1, 15deg);
     }
-    29%, 41%, 53%, 65%, 77% {
-        transform: rotate3d(0,0,1,-15deg);
+
+    26%,
+    38%,
+    50%,
+    62%,
+    74% {
+        transform: rotate3d(0, 0, 1, 0deg);
     }
+
+    29%,
+    41%,
+    53%,
+    65%,
+    77% {
+        transform: rotate3d(0, 0, 1, -15deg);
+    }
+
     80% {
-        transform:rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 0deg);
     }
 
 }
 
+.back {
+    background-image: url(https://i.redd.it/po8p8l5v0hq71.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes float {
+    from {
+        trasform: translateY(0);
+        box-shadow: 0 45px 25px -15px #00000050;
+    }
+
+    50% {
+        trasform: translateY(-5px);
+        box-shadow: 0 50px 40px -15px #00000050;
+    }
+
+    100% {
+        trasform: translateY(0);
+        box-shadow: 0 45px 25px -15px #00000050;
+    }
+}

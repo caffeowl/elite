@@ -37,7 +37,7 @@ export default function Page() {
                                 <Link href="https://maps.app.goo.gl/MNPaTHBMQZcMkxr99" target="_blank"><MapPin/>&emsp;Event Location</Link>
                             </Button>
                             <Button className="w-fit" variant="link" asChild>
-                                <Link target="_blank" href=""><CalendarPlus/>&emsp;Add to Calender&emsp;</Link>
+                                <Link target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NW1pM2JsYXE3YXRmMGNjMXY3NzVkMDFycjggc2lyaXNoc2VraGFyMjBAbQ&tmsrc=sirishsekhar20%40gmail.com"><CalendarPlus/>&emsp;Add to Calender&emsp;</Link>
                             </Button>
                         </div>
                     </div>
