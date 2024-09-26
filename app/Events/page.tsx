@@ -51,7 +51,8 @@ export default function events() {
         },
         {
             path: '/paperpresentation', value: 'Paper Presentation', img: require('./paperpresentation.jpg'),
-            erules: "",
+            erules: "Team can have maximum of 2 participants.First and Second prizes are awarded based on judgment.Students have to maintain a decent Dress code.Work should be original and in the specified format.Registered candidates are directed to mail the complete paper in IEEE format on or before 3th October 2024 to (elite mail id ) with <paper title> in the Subject field of the mail.Full paper must be submitted in IEEE format only and should not exceed 6 pages.Shortlisted candidates will be informed by E-Mail ID or by Mobile by 6th October 2024 and they would have to send reply confirming their participation on or before 07th October 2024.The paper which is already published in anywhere will not be qualified.The selected candidates should submit a soft copy and hard copy of the paper (2 copies) with abstract at the time of presentation. (in A4 sheets not exceeding ten pages - including references, tables and figures).Decision of the Judges and the event heads shall be treated as final and binding on all and cannot be contested.Directly copying from the internet is strongly discouraged and will not be entertained",
+            p_rules: "The paper submitted will have to be presented during the event.The participants have to present their papers in Power Point (ppt/pptx) format only.The Teams will get 7 minutes to present their paper.It will be followed by a question and answer session for the next 3 Minutes.The participants will have to present their papers in MS-Power Point (ppt) format only.The organizers reserve the right to change/update the rules of the contest at any point of time and will do their best to inform to participants of the same. However, it is ultimately the responsibility of the teams to keep themselves updated",
             staff: "Dr.S.Prakasam",
             desg: "Staff In-Charge",
             staff_cell: "9944902315",
@@ -100,7 +101,7 @@ export default function events() {
         {
             path: '/quiz', value: 'Quiz', img: require('./quiz.jpg'),
             erounds: "Round 1: Entertainment Based Connection.Game name both indoor and outdoor.Mathematical operations.Letter Shuffle.Round 2: Technical.Picture merging only computer parts.Logo.Tags.Famous personality.Round 3: Think and ping.Proverb.Find the difference.Inventions and abbreviation.Allocation of time will be based on rounds.If any question is left out, it is passed to the next node, and marks will be given based on it.The rules will be subjected to change.For further queries and registration, contact: 9626371781",
-            erules: "Number of Nodes per Network.All participating Nodes will be certified, with participation certificate.Only two successful Networks are selected by the Administrator.Any Wi-Fi can register on the particular network ON-SPOT for free.The nodes can be registered in advance by visiting our website (www.kanchiuniv.ac.in/csa/elite2K24).Number of rounds: 3.The network which has proper connectivity with higher speed will be given priority to update for further rounds",
+            erules: "Number of Nodes per Network.All participating Nodes will be certified, with participation certificate.Only two successful Networks are selected by the Administrator.Any Wi-Fi can register on the particular network ON-SPOT for free.The nodes can be registered in advance by visiting our website.Number of rounds: 3.The network which has proper connectivity with higher speed will be given priority to update for further rounds",
             staff: "Dr.T.Nirmal Raj",
             desg: "Staff In-Charge",
             staff_cell: "tel:9498028711",
@@ -152,7 +153,7 @@ export default function events() {
                                     <Separator />
                                     <div className="grid gap-2 py-2 overflow-y-auto max-h-[600px]">
                                         <div className="grid grid-items-center gap-4">
-                                            <DialogDescription>Rules & Regulations</DialogDescription>
+                                            <DialogDescription>Rules & Regulations<br/><br/><Link href="mailto:elite2k24@kanchiuniv.ac.in">Mail for submission as per event rules : elite2k24@kanchiuniv.ac.in</Link></DialogDescription>
                                             <Separator />
                                             <div className="text-size-small text-black space-y-2 overflow-y-auto max-h-[200px]">
                                                 {item.erules && item.erules.split(".").map((sentence, index) => (
@@ -184,6 +185,20 @@ export default function events() {
                                                     </div>
                                                 </div>
                                             )}
+
+                                            {item.p_rules && ( // Check if erules exists
+                                                <div>
+                                                    <DialogDescription>Presentation Rules :</DialogDescription>
+                                                    <Separator />
+                                                    <div className="text-size-small text-black space-y-2 overflow-y-auto max-h-[200px]">
+                                                        {item.p_rules && item.p_rules.split(".").map((sentence, index) => (
+                                                            <p key={sentence}>{index + 1}. {sentence}.</p>
+                                                        ))}
+                                                    </div>
+                                                    </div>
+
+                                            )}
+
                                         </div>
                                         <div className="grid-row gap-2 px-2">
                                             <Badge className="badge_coord" variant="outline">
