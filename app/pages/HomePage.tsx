@@ -1,11 +1,10 @@
 // React and Next.js imports
 import Image from "next/image";
 import Link from "next/link";
-
+import elite_2k24 from "./logo_elite-removebg-preview.png";
 // UI component imports
 import * as Craft from "@/components/craft";
 import { Button } from "@/components/ui/button";
-import elite_2k19 from '../image/elite_2k19.jpeg'
 import Invitation from '../Invitation/page';
 import {MapPin,CalendarPlus} from "lucide-react";
 
@@ -18,11 +17,7 @@ export default function Page() {
             <Craft.Section>
                 <Craft.Container className="grid items-stretch md:grid-cols-2 md:gap-12">
                     <div className="not-prose relative flex h-96 overflow-hidden rounded-lg border">
-                        <Image
-                            src={elite_2k19}
-                            alt="placeholder"
-                            className="fit object-cover"
-                        />
+                        <Image src={elite_2k24} alt="" className="bg_f"></Image>
                     </div>
                     <div className="flex flex-col gap-6 py-8">
                         <h3 className="!my-0">Elite 2k24 Welcomes You!</h3>

@@ -28,3 +28,12 @@
     animation: blink 1s linear infinite;
     -webkit-text-stroke: 2px #f20707;
   }
+
+
+
+.bg_f{
+    width: 400px;
+    height: 400px;
+    padding: auto;
+    margin: auto;
+}
