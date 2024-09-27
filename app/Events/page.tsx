@@ -55,7 +55,7 @@ export default function events() {
             p_rules: "The paper submitted will have to be presented during the event.The participants have to present their papers in Power Point (ppt/pptx) format only.The Teams will get 7 minutes to present their paper.It will be followed by a question and answer session for the next 3 Minutes.The participants will have to present their papers in MS-Power Point (ppt) format only.The organizers reserve the right to change/update the rules of the contest at any point of time and will do their best to inform to participants of the same. However, it is ultimately the responsibility of the teams to keep themselves updated",
             staff: "Dr.V.Ramesh",
             desg: "Staff In-Charge",
-            staff_cell: "9952494214",
+            staff_cell: "tel:9952494214",
             event_cord: "Dinesh D",
             cord_desg: "Co-ordinator",
             cord_cell: "9677308181",
