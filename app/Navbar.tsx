@@ -22,8 +22,8 @@ export default function Navbar() {
 
     return (
         <header>
-            <nav className="bg-white w-full border-b md:border-5">
-                <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
+            <nav className="bg-white w-auto border-b md:border-5">
+                <div className="items-center px-2 max-w-full mx-auto md:flex md:px-8">
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <Link href="/">
                             <h1 className="text-3xl font-bold " id="title_el">ELITE 2k24</h1>
@@ -50,7 +50,7 @@ export default function Navbar() {
                             <HoverCard>
                                 <HoverCardTrigger asChild>
                                     <Button className="w-fit" id="register" asChild>
-                                        <Link href="https://forms.gle/44dMPuRyuXFd2pwH7" target="_blank"><FilePen />&emsp;Register Now!</Link>
+                                        <Link href="https://forms.gle/44dMPuRyuXFd2pwH7" target="_blank"><FilePen />&emsp;Register</Link>
                                     </Button>
                                 </HoverCardTrigger>
                                 <HoverCardContent className="w-80">
