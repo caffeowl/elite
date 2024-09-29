@@ -25,7 +25,7 @@ export default function Page() {
                         <Image src={elite_2k24} alt="" className="bg_f"></Image>
                     </div>
                     <div className="flex flex-col gap-6 py-8">
-                        <h3 className="!my-0">Elite 2k24 Welcomes You!</h3>
+                        <h3 className=" font_heading">Elite 2k24 Welcomes You!</h3>
                         <h1 id="blinking-text">Last date for registration : 30th September.</h1>
                         <HoverCard>
                             <HoverCardTrigger asChild>

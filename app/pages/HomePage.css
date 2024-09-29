@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 .card {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -16,6 +17,16 @@
 }
 .txt_reg {
     display: inline-block;
+}
+.font_heading{
+    text-shadow: 2px 2px 4px rgba(147, 211, 204, 0.1),
+    3px 4px 4px rgba(147, 185, 211, 0.15),
+    4px 6px 4px rgba(147, 173, 211, 0.2),
+    5px 8px 4px rgba(147, 185, 211, 0.25);
+    font-size: larger;
+    font-weight: 800;
+    font-family:"Francois One", sans-serif;
+    color: blue;
 }
 @keyframes blink {
     0%, 100% {opacity: 1;}
