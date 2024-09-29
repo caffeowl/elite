@@ -6,7 +6,6 @@ import { Section, Container } from "@/components/craft";
 import { Button } from "../../components/ui/button";
 import { Badge } from "../../components/ui/badge";
 import { Avatar, AvatarImage } from "@/components/ui/avatar"
-
 const About = () => {
   return (
     <Section className="relative backdrop-blur-sm" id="about">

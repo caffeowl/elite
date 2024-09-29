@@ -16,7 +16,7 @@ export default function Navbar() {
     const [state, setState] = React.useState(false)
     const menus = [
         { title: "Events", path: "/Events" },
-        { title: "About", path: "#about" },
+        { title: "About", path: "/About" },
         { title: "Contact", path: "#contact" },
     ]
 
