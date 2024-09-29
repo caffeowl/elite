@@ -93,3 +93,17 @@ body {
     @apply bg-background text-foreground;
   }
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  main {
+    margin: 10px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column; /* Change layout for smaller screens */
+  }
+}
