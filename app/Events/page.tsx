@@ -78,7 +78,7 @@ export default function events() {
             path: '/groupdiscussion', value: 'Group Discussion', img: require('./gd.png'),
             erules: "Only registered students are allowed to participate in Group Discussion.Participants can range from 7 to 12 in a group based on the number of the students registered. Average duration of the GD is 30 minutes.Sometimes, the panelist or judges can extend the discussion for more than 30 minutes. They can also end the discussion in between.Process of GD may repeat to filter the best speakers.Result will be announced by the Judge and it is the final decision",
             proc:"The process of a Group Discussion starts with the announcement of the topic. The given topic could be technical, factual, or case study.Before beginning with the discussion, the preparation time of 2 to 3 minutes is given. The time can also extend in case of a long case statement.Any participant in the group can initiate the discussion. After the lead participant, anyone in the group can continue the discussion. Similarly, everyone gets the chance to speak. One after another, participants in the group expresses their views on the given topic.It ends when the panelist stops the discussion or may ask one or more than one participant to summarize the GD. Whenever you are asked for the summary, remember to cover the discussed points. The summary cannot include the words that were not part of the discussion. The participants that were quite among the discussion are generally asked to summarize it, which is a good opportunity to present their views. But, it does not mean that everyone should be quite. The summary should include the essential discussed points and the conclusion of the discussion.The final scores are calculated. Based on the performance of each participant, the judge will give the final result and it is the final decision",
-            staff: "Dr.M.Kannan",
+            staff: "Dr.N.R.Ananthanarayanan",
             desg: "Staff In-Charge",
             staff_cell: "tel:9443690287",
             event_cord: "Jeeva",
@@ -90,7 +90,7 @@ export default function events() {
         {
             path: '/mockinterview', value: 'Mock Interview', img: require('./mi.jpg'),
             erules: "The date and timings of the mock is given by the experts according to their feasibility and the interviews are conducted according to those timings.Mock interviews are conducted for the registered students only and it is offline mode.The order of students selected for panel is based upon CGPA or the opinion of the experts or the coordinators.Students have to bring their resume and other relevant documents else not permit to attend the mock interview.Strictly follow the dress code.If the students are unable to attend the mock interview due to any reason, they have to intimate earliest, no more chance will be provide further.Result will be announced by the Judge and it is the final decision",
-            staff: "Dr.N.R.Ananthanarayanan",
+            staff: "Dr.M.Kannan",
             desg: "Staff In-Charge",
             staff_cell: "tel:",
             event_cord: "Bharathipriyan M",
