@@ -39,7 +39,7 @@ export default function events() {
         {
             path: '/softwaredebugging', value: 'Software Debugging', img: require('./bug.png'),
             erules: "One participant per team.Certificates will be provided for all participants.First and second prizes are awarded based on judgment.Students have to maintain a decent dress code",
-            erounds: "First Round:.This round consists of 20 questions.Time duration: 20 minutes.Maximum numbers of outputs should be given, and the respective logics must be answered.The best performances are promoted for GRAND FINALE.Final Round:.5 bugged programs are given to individuals on the spot.Time duration: 45 minutes.The participants who debugged the maximum number of programs will be considered as best performer.Best performances are rewarded",
+            erounds: "First Round:.This round consists of 20 questions.Time duration: 20 minutes.Maximum numbers of outputs should be given, and the respective logics must be answered.The best performances are promoted for GRAND FINALE.Final Round:.5 programs are given to individuals on the spot.Time duration: 45 minutes.The participants who debugged the maximum number of programs will be considered as best performer.Best performances are rewarded",
             staff: "Mr.M.Krishnamoorthy",
             desg: "Staff In-Charge",
             staff_cell: "tel:9443308792",
