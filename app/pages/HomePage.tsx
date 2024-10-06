@@ -6,7 +6,7 @@ import elite_2k24 from "./logo_elite-removebg-preview.png";
 import * as Craft from "@/components/craft";
 import { Button } from "@/components/ui/button";
 import Invitation from '../Invitation/page';
-import { MapPin, CalendarPlus, ExternalLink } from "lucide-react";
+import { MapPin, CalendarPlus } from "lucide-react";
 // import {
 //     HoverCard,
 //     HoverCardContent,
