@@ -7,12 +7,12 @@ import * as Craft from "@/components/craft";
 import { Button } from "@/components/ui/button";
 import Invitation from '../Invitation/page';
 import { MapPin, CalendarPlus, ExternalLink } from "lucide-react";
-import {
-    HoverCard,
-    HoverCardContent,
-    HoverCardTrigger,
-} from "@/components/ui/hover-card"
-import qr from '../image/QR.jpeg'
+// import {
+//     HoverCard,
+//     HoverCardContent,
+//     HoverCardTrigger,
+// } from "@/components/ui/hover-card"
+// import qr from '../image/QR.jpeg'
 // Asset imports
 import './HomePage.css'
 import About from "../About/page"
@@ -26,8 +26,8 @@ export default function Page() {
                     </div>
                     <div className="flex flex-col gap-6 py-8">
                         <h3 className=" font_heading">Elite 2k24 Welcomes You!</h3>
-                        <h1 id="blinking-text">Last date for registration : 30th September.</h1>
-                        <HoverCard>
+                        <h1 id="blinking-text">Registration Closed !</h1>
+                        {/* <HoverCard>
                             <HoverCardTrigger asChild>
                                 <Button className="w-fit" id="register" asChild>
                                     <Link href="https://forms.gle/44dMPuRyuXFd2pwH7" target="_blank"><ExternalLink />&emsp;Register Here</Link>
@@ -46,7 +46,7 @@ export default function Page() {
                                     </div>
                                 </div>
                             </HoverCardContent>
-                        </HoverCard>
+                        </HoverCard> */}
                         <p className="font-light leading-[1.4] opacity-70">
                             Consider this as an opportunity to participate and win prices.
                             Make sure to register early and get updates regarding the events you participate.

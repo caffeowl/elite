@@ -3,15 +3,15 @@ import Link from "next/link"
 import { Menu } from "lucide-react"
 import * as React from "react"
 import './nav.css'
-import { FilePen } from "lucide-react";
-import { Button } from "@/components/ui/button"
-import {
-    HoverCard,
-    HoverCardContent,
-    HoverCardTrigger,
-} from "@/components/ui/hover-card"
-import qr from './image/QR.jpeg'
-import Image from "next/image"
+// import { FilePen } from "lucide-react";
+// import { Button } from "@/components/ui/button"
+// import {
+//     HoverCard,
+//     HoverCardContent,
+//     HoverCardTrigger,
+// } from "@/components/ui/hover-card"
+// import qr from './image/QR.jpeg'
+// import Image from "next/image"
 export default function Navbar() {
     const [state, setState] = React.useState(false)
     const menus = [
@@ -47,7 +47,7 @@ export default function Navbar() {
                                     <Link href={item.path}>{item.title}</Link>
                                 </li>
                             ))}
-                            <HoverCard>
+                            {/* <HoverCard>
                                 <HoverCardTrigger asChild>
                                     <Button className="w-fit" id="register" asChild>
                                         <Link href="https://forms.gle/44dMPuRyuXFd2pwH7" target="_blank"><FilePen />&emsp;Register</Link>
@@ -66,7 +66,7 @@ export default function Navbar() {
                                         </div>
                                     </div>
                                 </HoverCardContent>
-                            </HoverCard>
+                            </HoverCard> */}
                         </ul>
                     </div>
                 </div>
